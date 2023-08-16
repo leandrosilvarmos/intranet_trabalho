@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shift e-lis</title>
+<script type="text/javascript">
+  function submitform()
+ {
+  formulario.submit();
+ }
+</script>
+</head>
+<body onload="submitform();">
+	
+	<!-- link comentando para a versao da linha 16 devido ao protocolo https estar aprensetando erro na interface. joel.souza 17/06/2019 -->
+	<!--<form name="formulario" method="post" action="https://shiftlis.afip.com.br/shift/lis/afip/elis/s01.iu.web.Login.cls?config=UNICO" style="display: none;">-->
+	  <form name="formulario" method="post" action="http://shiftlis.afip.com.br/shift/lis/afip/elis/s01.iu.web.Login.cls" style="display: none;">
+	  <input type="text" name="UserName" value= "SLHESAP" readonly /><br><br>
+	  <input type=password name="Password" value= "SLHESAP" readonly /><br><br>
+	</form>
+</body>
+</html>
